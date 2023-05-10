@@ -1,13 +1,12 @@
 import React from 'react';
-import Header from './components';
+import Header from './components/Header';
 
 class App extends React.Component {
   render() {
     return (
-      <>
-        <p>Sistema Solar</p>
+      <div className="header">
         <Header />
-      </>
+      </div>
     );
   }
 }
