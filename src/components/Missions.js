@@ -3,9 +3,7 @@ import React from 'react';
 class Missions extends React.Component {
   render() {
     return (
-      <div data-testid="missions">
-        <p>planetas</p>
-      </div>
+      <div data-testid="missions" />
     );
   }
 }
